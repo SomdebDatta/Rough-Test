@@ -1,0 +1,19 @@
+save_path: "D:/Projects/neom2/images/output"
+
+input_queue: "neom_0"
+
+output_queue: "hello"
+
+log: "app.log"
+
+database:
+
+  user: "postgres"
+
+  pwd: "sd1099"
+  
+  host: "localhost"
+
+  port: 5432
+
+  db: "neom_test"

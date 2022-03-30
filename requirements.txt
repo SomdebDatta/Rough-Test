@@ -1,0 +1,5 @@
+geojson==2.5.0
+pika==1.2.0
+psycopg2==2.9.3
+turfpy==0.0.7
+opencv_python==4.5.3.56
