@@ -23,7 +23,7 @@ def callback(ch, method, properties, body):
     LOGGER.info("Polygon Coordinates received. - {0}".format(poly_coord))
     print(poly_coord)
 
-    points = points_from_jsonip(input_json["operational_data"]["locationData"])
+    points = points_from_jsonip(input_json["checkGeofence"])
     
     out = check_if_within_geo(points, poly_coord)
     if out: 
